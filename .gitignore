@@ -1,0 +1,14 @@
+# secrets
+.env
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# generated
+.cache/
+
+# data: remove this line if you have the right to publish the exams
+data/
