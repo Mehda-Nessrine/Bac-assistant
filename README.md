@@ -87,21 +87,13 @@ bac-assistant/
     └── bac-chatbot.ipynb   # Development notebook (Kaggle)
 ```
 
----
 
-## 📚 Data
-
-The exam data is **not included** in this repository. Put your own files in the `data/` folder (one sub-folder per exam year) and the app will load them at startup.
-
-> 📌 *Add here the source of your data and your rights to publish it.*
-
----
 
 ## 🚀 Getting started
 
 ### 1. Clone and install
 ```bash
-git clone https://github.com/<your-username>/bac-assistant.git
+git clone https://github.com/Mehda-Nessrine/Bac-assistant.git
 cd bac-assistant
 python -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
@@ -115,10 +107,9 @@ cp .env.example .env
 # edit .env and set GEMINI_API_KEY=...
 ```
 
-### 3. Add the data
-Put your exam files in `data/<year>/`.
 
-### 4. Run
+
+### 3. Run
 ```bash
 python app.py
 ```
@@ -150,31 +141,4 @@ GRADIO_SHARE=1 python app.py
 - `شرحلي كيفاش نحسب نهاية دالة أسية`
 - `والسؤال الثاني كيفاش؟` *(follow-up, uses the conversation history)*
 
----
 
-## ⚠️ Known limitations (v0.1)
-
-- Only covers the years present in the dataset.
-- Answers depend on the quality of the LLM; the official correction is the reference, but mistakes are still possible. **Always check with your teacher.**
-- Free-tier API quotas can make answers slow (the app retries and uses fallback models).
-- No automated tests yet.
-- Mathematical statements pasted by the student are not parsed specially (handled as a general question).
-
-## 🛣️ Roadmap
-
-- [ ] Add more exam years and the other streams (sciences, technique math, gestion...)
-- [ ] Unit tests for `router._validate` and `llm_utils`
-- [ ] Student can upload a photo of an exercise
-- [ ] Quiz / exam-simulation mode
-- [ ] Deploy on Hugging Face Spaces
-- [ ] Evaluation set to measure answer accuracy
-
----
-
-## 🧰 Tech stack
-
-Python • [Google Gemini API](https://ai.google.dev/) (`google-genai`) • Pydantic (structured output) • [Gradio](https://www.gradio.app/)
-
-## 📄 License
-
-Choose a license (e.g. MIT for the code) and add a `LICENSE` file. The exam data may have its own terms.
