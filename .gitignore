@@ -10,5 +10,4 @@ __pycache__/
 # generated
 .cache/
 
-# data: remove this line if you have the right to publish the exams
-data/
+
