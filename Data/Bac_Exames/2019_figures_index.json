@@ -1,0 +1,59 @@
+{
+  "year": 2019,
+  "figures_folder": "figures/",
+  "note": "الفهرس مستقل عن ملفي JSON؛ يربط كل صورة بالتمرين عبر exercise_id، وملفا JSON يشيران إلى الصور عبر الحقل figures. لا تتضمن مواضيع 2019 أي شكل معطى؛ كل الأشكال أجوبة في التصحيح.",
+  "figures": [
+    {
+      "id": "2019_corr_s1_ex4_cf_gamma",
+      "file": "figures/2019_corr_s1_ex4_cf_gamma.png",
+      "year": 2019,
+      "document": "correction",
+      "source_pdf": "2019_correction.pdf",
+      "subject": 1,
+      "exercise": 4,
+      "exercise_id": "2019_s1_ex4",
+      "page_in_source_pdf": 6,
+      "page_in_original_big_pdf": null,
+      "role": "answer",
+      "description_ar": "إنشاء المنحنيين (C_f) للدالة f(x)=1/(x-2)+ln x و (Γ) منحنى الدالة ln مع المستقيمين المقاربين x=0 و x=2",
+      "description_fr": "Construction de (Cf) de f(x)=1/(x-2)+ln x et de (Γ) courbe de ln, avec les asymptotes x=0 et x=2",
+      "width": 867,
+      "height": 610
+    },
+    {
+      "id": "2019_corr_s2_ex4_cf_cg",
+      "file": "figures/2019_corr_s2_ex4_cf_cg.png",
+      "year": 2019,
+      "document": "correction",
+      "source_pdf": "2019_correction.pdf",
+      "subject": 2,
+      "exercise": 4,
+      "exercise_id": "2019_s2_ex4",
+      "page_in_source_pdf": 14,
+      "page_in_original_big_pdf": null,
+      "role": "answer",
+      "description_ar": "المنحنيان (C_f) و (C_g) على المجال [0;2] والحيّز المظلل (S) المحصور بينهما",
+      "description_fr": "Courbes (Cf) et (Cg) sur [0;2] et domaine (S) hachuré qu'elles délimitent",
+      "width": 867,
+      "height": 760,
+      "note": "جزء صغير من النص الأصلي يتداخل مع أعلى الصورة تم قصه."
+    },
+    {
+      "id": "2019_corr_s2_ex4_ch",
+      "file": "figures/2019_corr_s2_ex4_ch.png",
+      "year": 2019,
+      "document": "correction",
+      "source_pdf": "2019_correction.pdf",
+      "subject": 2,
+      "exercise": 4,
+      "exercise_id": "2019_s2_ex4",
+      "page_in_source_pdf": 15,
+      "page_in_original_big_pdf": null,
+      "role": "answer",
+      "description_ar": "المنحنى (C_h) للدالة h(x)=(1/2)e x²-e^{|x|} على [-2;2] (دالة زوجية)",
+      "description_fr": "Courbe (Ch) de h(x)=(1/2)e x²-e^{|x|} sur [-2;2] (fonction paire)",
+      "width": 957,
+      "height": 470
+    }
+  ]
+}

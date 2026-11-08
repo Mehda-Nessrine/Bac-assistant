@@ -1,0 +1,393 @@
+{
+  "year": 2022,
+  "session": "جوان 2022",
+  "stream": "علوم تجريبية",
+  "subject_name": "الرياضيات",
+  "author": "الأستاذ بعون لقمان",
+  "source_pdf": "2022_correction.pdf",
+  "math_format": "LaTeX (inline: $...$)",
+  "table_convention": "صفوف الإشارة تتناوب بين المجال والنقطة (مجال، صفر، مجال، ...)، وصفوف القيم تعطي النهايات أو القيم عند نقاط x.",
+  "notes": "الوثيقة الأصلية لا تتضمن علامات مفصلة لكل سؤال (عمود العلامة فارغ)؛ النقاط لكل تمرين موجودة في ملف الموضوع.",
+  "solutions": [
+    {
+      "exercise_id": "2022_s1_ex1",
+      "subject_choice": 1,
+      "exercise_number": 1,
+      "answers": [
+        {
+          "label": "1",
+          "answer": "بقراءة بيانية: $f'(0)=\\tan\\alpha$ أي $f'(0)=1$. معادلة المماس $(T)$ هي: $y=f'(0)(x-0)+f(0)$ معناه $y=x$.",
+          "final": "f'(0)=1,\\ \\lim_{x\\to-\\infty} f(x)=-1,\\ (T): y=x"
+        },
+        {
+          "label": "2",
+          "answer": "الحلول هي فواصل نقط تقاطع المنحنى $(C_f)$ والمستقيم ذي المعادلة $y=x+m$. لمّا $m\\in]-\\infty;0[$ ليس للمعادلة حلول. لمّا $m=0$ للمعادلة حل وحيد. لمّا $m\\in]0;+\\infty[$ للمعادلة حلّان."
+        },
+        {
+          "label": "3",
+          "answer": "لدينا $f(x)=(x^2+a)e^x+b$ ومنه $\\lim_{x\\to-\\infty} f(x)=b$. ومن جهة أخرى $\\lim_{x\\to-\\infty} f(x)=-1$ معناه $b=-1$. ولدينا $f(0)=0$ وبالتعويض نجد أنّ $a-1=0$ أي $a=1$.",
+          "final": "a=1,\\ b=-1"
+        },
+        {
+          "label": "4",
+          "answer": "لدينا من أجل كلّ $x$ من $\\mathbb{R}$ فإنّ $-x$ من $\\mathbb{R}$ و $g(-x)=((-x)^2+1)e^{|-x|}-1=g(x)$ ومنه $g$ دالة زوجية. على المجال $[0;+\\infty[$ فإنّ $(C_g)$ ينطبق على $(C_f)$، وبما أنّ $g$ دالة زوجية فنُناظر الجزء السابق بالنسبة إلى حامل محور التراتيب.",
+          "note": "الشكل: منحنى (C_g)."
+        }
+      ],
+      "figures": [
+        "2022_sujet_s1_ex1_cf",
+        "2022_corr_s1_ex1_cg"
+      ]
+    },
+    {
+      "exercise_id": "2022_s1_ex2",
+      "subject_choice": 1,
+      "exercise_number": 2,
+      "answers": [
+        {
+          "label": "1",
+          "answer": "الإجابة صحيحة. التبرير: $\\lim_{x\\to+\\infty}[f(x)-(x-1)]=\\lim_{x\\to+\\infty}\\dfrac{\\ln x}{x}=0$ ومنه المستقيم ذو المعادلة $y=x-1$ مقارب مائل لمنحنى الدالة $f$ بجوار $+\\infty$.",
+          "final": "صحيحة"
+        },
+        {
+          "label": "2",
+          "answer": "الإجابة خاطئة. التبرير: المعادلة تقبل حلولا على المجال $\\left]\\dfrac{1}{2};+\\infty\\right[$. لدينا $\\ln(2x+1)+\\ln(2x-1)=\\ln 3$ يكافئ $\\ln[(2x+1)(2x-1)]=\\ln 3$ معناه $4x^2-1=3$ ومنه $x=1$ مقبول و $x=-1$ مرفوض.",
+          "final": "خاطئة (حل وحيد x=1)"
+        },
+        {
+          "label": "3",
+          "answer": "الإجابة صحيحة. التبرير: $F$ قابلة للاشتقاق على $\\mathbb{R}$ ودالتها المشتقة $F'(x)=1-\\dfrac{2e^{-2x}}{1+e^{-2x}}$ أي $F'(x)=\\dfrac{1-e^{-2x}}{1+e^{-2x}}$ معناه $F'(x)=f(x)$.",
+          "final": "صحيحة"
+        },
+        {
+          "label": "4",
+          "answer": "الإجابة خاطئة. التبرير: $\\ln u_1+\\ln u_2+\\cdots+\\ln u_{2022}=\\ln(2)+\\ln\\left(\\dfrac{3}{2}\\right)+\\cdots+\\ln\\left(\\dfrac{2023}{2022}\\right)=\\ln\\left(2\\times\\dfrac{3}{2}\\times\\cdots\\times\\dfrac{2023}{2022}\\right)$ ومنه المجموع يساوي $\\ln(2023)$.",
+          "final": "\\ln 2023"
+        }
+      ],
+      "figures": []
+    },
+    {
+      "exercise_id": "2022_s1_ex3",
+      "subject_choice": 1,
+      "exercise_number": 3,
+      "answers": [
+        {
+          "label": "1",
+          "answer": "تمثيل الحدود كما هو موضح في الشكل.",
+          "note": "الشكل: خطوط التمثيل (حلزون/سلّم) لتمثيل u0, u1, u2, u3."
+        },
+        {
+          "label": "2.أ",
+          "answer": "المتتالية $(u_n)$ غير رتيبة لأنّ $u_0<u_1$ لكن $u_1>u_2$.",
+          "final": "u_0<u_1\\ \\text{ و }\\ u_1>u_2"
+        },
+        {
+          "label": "2.ب",
+          "answer": "المتتالية $(u_n)$ متقاربة نحو فاصلة نقطة تقاطع المستقيمين $(D)$ و $(\\Delta)$."
+        },
+        {
+          "label": "3.أ",
+          "answer": "$(v_n)$ متتالية هندسية أساسها $\\dfrac{1}{4}$ معناه $v_{n+1}=\\dfrac{1}{4}v_n$. لدينا $v_{n+1}=\\left(u_{n+1}-\\dfrac{2}{3}\\right)^2=\\left(-\\dfrac{1}{2}u_n+\\dfrac{1}{3}\\right)^2=\\left(-\\dfrac{1}{2}\\left(u_n-\\dfrac{2}{3}\\right)\\right)^2$ فيكون $v_{n+1}=\\dfrac{1}{4}v_n$. و $v_0=\\left(u_0-\\dfrac{2}{3}\\right)^2$ أي $v_0=\\left(\\dfrac{14}{3}\\right)^2$.",
+          "final": "q=\\dfrac{1}{4},\\ v_0=\\left(\\dfrac{14}{3}\\right)^2"
+        },
+        {
+          "label": "3.ب",
+          "answer": "$v_n=v_0\\times q^n$ ومنه $v_n=\\left(\\dfrac{14}{3}\\right)^2\\times\\left(\\dfrac{1}{4}\\right)^n$، و $\\lim_{n\\to+\\infty} v_n=0$ لأنّ $0<\\dfrac{1}{4}<1$. لدينا $\\lim_{n\\to+\\infty} v_n=0$ أي $\\lim_{n\\to+\\infty}\\left(u_n-\\dfrac{2}{3}\\right)^2=0$ أي $\\lim_{n\\to+\\infty} u_n=\\dfrac{2}{3}$ ومنه $(u_n)$ متقاربة.",
+          "final": "v_n=\\left(\\dfrac{14}{3}\\right)^2\\left(\\dfrac{1}{4}\\right)^n,\\ \\lim_{n\\to+\\infty}u_n=\\dfrac{2}{3}"
+        },
+        {
+          "label": "4",
+          "answer": "لدينا: $v_0\\times v_1\\times\\cdots\\times v_{n-1}=v_0\\times(v_0 q)\\times(v_0 q^2)\\times\\cdots\\times(v_0 q^{n-1})$ يكافئ $=v_0^{\\,n}\\times q\\cdot q^2\\cdots q^{n-1}=v_0^{\\,n}\\times q^{1+2+3+\\cdots+(n-1)}=v_0^{\\,n}\\times q^{\\frac{n(n-1)}{2}}$. بالتعويض نجد $v_0\\times v_1\\times\\cdots\\times v_{n-1}=\\left(\\dfrac{14}{3}\\right)^{2n}\\times\\left(\\dfrac{1}{2}\\right)^{n^2-n}$.",
+          "final": "v_0\\times v_1\\times\\cdots\\times v_{n-1}=\\left(\\dfrac{14}{3}\\right)^{2n}\\left(\\dfrac{1}{2}\\right)^{n^2-n}",
+          "note": "ملاحظة الأستاذ في الوثيقة الأصلية: العلاقة الأخيرة غير محققة من أجل n=0 (يُنصح بمراجعتها: الجداء الفارغ يساوي 1 والطرف الأيمن يساوي 1 عند n=0)."
+        }
+      ],
+      "figures": [
+        "2022_sujet_s1_ex3_lines",
+        "2022_corr_s1_ex3_cobweb"
+      ]
+    },
+    {
+      "exercise_id": "2022_s1_ex4",
+      "subject_choice": 1,
+      "exercise_number": 4,
+      "answers": [
+        {
+          "label": "I.1",
+          "answer": "الدالة $g$ قابلة للاشتقاق على $]0;+\\infty[$ ودالتها المشتقة $g'(x)=\\dfrac{2(x+1)}{x^3}+\\dfrac{1}{x}$. على المجال $]0;+\\infty[$ فإنّ $\\dfrac{2(x+1)}{x^3}+\\dfrac{1}{x}>0$ ومنه الدالة $g$ متزايدة تماما على مجال تعريفها.",
+          "final": "g'(x)=\\dfrac{2(x+1)}{x^3}+\\dfrac{1}{x}>0"
+        },
+        {
+          "label": "I.2.أ",
+          "answer": "تطبيق مبرهنة القيمة المتوسطة على المجال $[1{,}2;1{,}3]$ (الدالة $g$ مستمرة ومتزايدة تماما وتتغير إشارتها بين $1{,}2$ و $1{,}3$)."
+        },
+        {
+          "label": "I.2.ب",
+          "answer": "نلخص إشارة $g(x)$ على $]0;+\\infty[$ كما هو مبيّن في الجدول: $g(x)<0$ على $]0;\\alpha[$ و $g(x)>0$ على $]\\alpha;+\\infty[$.",
+          "table": {
+            "x": [
+              "0",
+              "\\alpha",
+              "+\\infty"
+            ],
+            "g(x)": [
+              "-",
+              "0",
+              "+"
+            ]
+          }
+        },
+        {
+          "label": "II.1.أ",
+          "answer": "$\\lim_{x\\to+\\infty} f(x)=\\lim_{x\\to+\\infty}\\left[\\dfrac{1}{xe^x}-\\dfrac{2}{e^x}-\\dfrac{\\ln x}{e^x}\\right]=0$. ولدينا $\\lim_{\\substack{x\\to 0\\\\ x>0}} f(x)=\\lim_{\\substack{x\\to 0\\\\ x>0}}\\left(\\dfrac{1}{x}-2-\\ln x\\right)e^{-x}=+\\infty$.",
+          "final": "\\lim_{x\\to+\\infty}f(x)=0,\\ \\lim_{x\\to 0^+}f(x)=+\\infty"
+        },
+        {
+          "label": "II.1.ب",
+          "answer": "التفسير البياني: $y=0$ معادلة مستقيم مقارب أفقي لـ $(C_f)$ بجوار $+\\infty$ و $x=0$ معادلة مستقيم مقارب موازٍ لحامل محور التراتيب."
+        },
+        {
+          "label": "II.2.أ",
+          "answer": "الدالة $f$ قابلة للاشتقاق على $]0;+\\infty[$ و $f'(x)=\\dfrac{g(x)}{e^x}$.",
+          "final": "f'(x)=\\dfrac{g(x)}{e^x}"
+        },
+        {
+          "label": "II.2.ب",
+          "answer": "من أجل كلّ $x$ من $]0;+\\infty[$ فإنّ إشارة $f'(x)$ هي من إشارة $g(x)$ لأنّ $e^x>0$، وبالتالي $f$ متزايدة تماما على $[\\alpha;+\\infty[$ ومتناقصة تماما على $]0;\\alpha]$. جدول التغيّرات:",
+          "table": {
+            "x": [
+              "0",
+              "\\alpha",
+              "+\\infty"
+            ],
+            "f'(x)": [
+              "-",
+              "0",
+              "+"
+            ],
+            "f(x)": [
+              "+\\infty",
+              "f(\\alpha)",
+              "0"
+            ]
+          }
+        },
+        {
+          "label": "II.3",
+          "answer": "الإنشاء: منحنى (C_f) كما هو مبيّن في الشكل.",
+          "note": "الشكل: منحنى (C_f)."
+        },
+        {
+          "label": "II.4.أ",
+          "answer": "الدالة $F$ قابلة للاشتقاق على $]0;+\\infty[$ ودالتها المشتقة $F'(x)=f(x)$ ومنه $F$ دالة أصلية للدالة $f$ على المجال $]0;+\\infty[$.",
+          "final": "F'(x)=f(x)"
+        },
+        {
+          "label": "II.4.ب",
+          "answer": "$S(\\lambda)=\\left[F(x)\\right]_{\\lambda}^{1/2}$ أي $S(\\lambda)=F\\left(\\dfrac{1}{2}\\right)-F(\\lambda)$ ومنه $S(\\lambda)=e^{-1/2}(2-\\ln 2)-e^{-\\lambda}(2+\\ln\\lambda)$. التفسير البياني: العدد $S(\\lambda)$ هو مساحة الحيّز المستوي المحدّد بالمنحنى $(C_f)$ وحامل محور الفواصل والمستقيمين اللذين معادلتاهما $x=\\lambda$ و $x=\\dfrac{1}{2}$.",
+          "final": "S(\\lambda)=e^{-1/2}(2-\\ln 2)-e^{-\\lambda}(2+\\ln\\lambda)"
+        }
+      ],
+      "figures": [
+        "2022_corr_s1_ex4_cf"
+      ]
+    },
+    {
+      "exercise_id": "2022_s2_ex1",
+      "subject_choice": 2,
+      "exercise_number": 1,
+      "answers": [
+        {
+          "label": "1",
+          "answer": "بقراءة بيانية: $f'(0)=\\tan\\alpha$ أي $f'(0)=-1$. معادلة المماس $(T)$: $y=f'(0)(x-0)+f(0)$ معناه $y=-x$.",
+          "final": "f'(0)=-1,\\ (T): y=-x"
+        },
+        {
+          "label": "2",
+          "answer": "لدينا $f'(0)=-1$ وبالتعويض نجد أنّ $a-2=-1$ أي $a=1$.",
+          "final": "a=1"
+        },
+        {
+          "label": "3",
+          "answer": "الحلول هي فواصل نقط تقاطع المنحنى $(C_f)$ والمستقيم ذي المعادلة $y=-x+m$. لمّا $m\\in]-\\infty;0[$ ليس للمعادلة حلول. لمّا $m=0$ للمعادلة حل وحيد معدوم. لمّا $m\\in]0;+\\infty[$ للمعادلة حلّان مختلفان في الإشارة."
+        },
+        {
+          "label": "4.أ",
+          "answer": "لدينا من أجل كلّ $x$ من $\\mathbb{R}-\\{-1\\}$ فإنّ $-2-x$ من $\\mathbb{R}-\\{-1\\}$ و $g(-2-x)=|-2-x+1|-1-2\\ln|-2-x+1|=g(x)$. التفسير البياني: المستقيم ذو المعادلة $x=-1$ محور تناظر لـ $(C_g)$.",
+          "final": "g(-2-x)=g(x)"
+        },
+        {
+          "label": "4.ب",
+          "answer": "على المجال $]-1;+\\infty[$ لدينا $|x+1|=x+1$ ومنه $g(x)=f(x)$."
+        },
+        {
+          "label": "4.جـ",
+          "answer": "على المجال $]-1;+\\infty[$ فإنّ $(C_g)$ ينطبق على $(C_f)$ ثم نناظر الجزء السابق بالنسبة إلى المستقيم ذي المعادلة $x=-1$.",
+          "note": "الشكل: منحنى (C_g)."
+        }
+      ],
+      "figures": [
+        "2022_sujet_s2_ex1_cf",
+        "2022_corr_s2_ex1_cg"
+      ]
+    },
+    {
+      "exercise_id": "2022_s2_ex2",
+      "subject_choice": 2,
+      "exercise_number": 2,
+      "answers": [
+        {
+          "label": "1",
+          "answer": "الاقتراح الصحيح هو (ب). التبرير: يمكن كتابة التكامل على الشكل $I=\\dfrac{1}{2}\\int_{1}^{2}(2x-2)e^{x^2-2x}\\,dx$ أي $I=\\dfrac{1}{2}\\left[e^{x^2-2x}\\right]_{1}^{2}$ ومنه $I=\\dfrac{1}{2}\\left(e^0-e^{-1}\\right)$ فيكون $I=\\dfrac{e-1}{2e}$.",
+          "final": "I=\\dfrac{e-1}{2e}\\ \\ (\\text{الاقتراح ب})"
+        },
+        {
+          "label": "2",
+          "answer": "الاقتراح الصحيح هو (أ). التبرير: $(v_n)$ متتالية هندسية معناه $v_{n+1}=q\\times v_n$ أي $v_{n+1}=q(u_n+\\alpha)\\cdots(1)$. لدينا $v_{n+1}=u_{n+1}+\\alpha$ يكافئ $v_{n+1}=\\dfrac{1}{3}(u_n+9+3\\alpha)\\cdots(2)$. بالمطابقة بين (1) و (2) نجد $9+3\\alpha=\\alpha$ ومنه $\\alpha=-\\dfrac{9}{2}$.",
+          "final": "\\alpha=-\\dfrac{9}{2}\\ \\ (\\text{الاقتراح أ})"
+        },
+        {
+          "label": "3",
+          "answer": "الاقتراح الصحيح هو (جـ). التبرير: لدينا $x$ موجب تماما ومنه $\\dfrac{\\ln(x+1)}{x}\\le\\dfrac{f(x)}{x}\\le\\dfrac{e^x-1}{x}$. وبما أنّ $\\lim_{x\\to 0^+}\\dfrac{\\ln(x+1)}{x}=1$ و $\\lim_{x\\to 0^+}\\dfrac{e^x-1}{x}=1$ فحسب مبرهنة الحصر فإنّ $\\lim_{x\\to 0^+}\\dfrac{f(x)}{x}=1$.",
+          "final": "\\lim_{x\\to 0^+}\\dfrac{f(x)}{x}=1\\ \\ (\\text{الاقتراح جـ})"
+        },
+        {
+          "label": "4",
+          "answer": "الاقتراح الصحيح هو (أ). التبرير: بمكاملة طرفي المساواة مرّتين نجد $y=x^2+\\ln x+c_1x+c_2$، وبتوظيف الشرطين $H(1)=4$ و $H'(1)=2$ نجد $H(x)=x^2-x+4+\\ln x$.",
+          "final": "H(x)=x^2-x+4+\\ln x\\ \\ (\\text{الاقتراح أ})"
+        }
+      ],
+      "figures": []
+    },
+    {
+      "exercise_id": "2022_s2_ex3",
+      "subject_choice": 2,
+      "exercise_number": 3,
+      "answers": [
+        {
+          "label": "1.أ",
+          "answer": "حسب خاصية الوسط الهندسي $u_0\\times u_2=u_1^2$ فيكون $u_1^2=e^2$، وبما أنّ حدود المتتالية موجبة تماما فإنّ $u_1=e$. من خلال المعادلة الثانية نجد $\\ln u_1+\\ln(u_1\\times q^6)=-4$ يكافئ $2\\ln u_1+6\\ln q=-4$ يكافئ $\\ln q=-1$ ومنه $q=e^{-1}$.",
+          "final": "u_1=e,\\ q=e^{-1}"
+        },
+        {
+          "label": "1.ب",
+          "answer": "لدينا $u_0=\\dfrac{u_1}{q}$ ومنه $u_0=e^2$ فتكون عبارة $u_n$ بدلالة $n$: $u_n=u_0\\times q^n$ أي $u_n=e^{2-n}$.",
+          "final": "u_n=e^{2-n}",
+          "note": "في الوثيقة الأصلية كُتبت العبارة بالرمز v_n سهوا بدل u_n."
+        },
+        {
+          "label": "2",
+          "answer": "نضع $S_n=u_0+u_1+\\cdots+u_n$ ومنه $S_n=u_0\\left(\\dfrac{1-q^{n+1}}{1-q}\\right)$. بالحساب والتبسيط نجد $S_n=\\dfrac{e^3}{e-1}\\left(1-e^{-n-1}\\right)$.",
+          "final": "S_n=\\dfrac{e^3}{e-1}\\left(1-e^{-n-1}\\right)"
+        },
+        {
+          "label": "3.أ",
+          "answer": "نضع $P(n): v_n=\\dfrac{e^{3-n}-e^4}{1-e}$. نتحقق من صحة الخاصية $P(n)$ من أجل $n=0$: لدينا $e^3=e^3$ ومنه $P(0)$ محققة. نفرض أنّ الخاصية $P(n)$ محققة أي $v_n=\\dfrac{e^{3-n}-e^4}{1-e}$ ونبرهن صحة $P(n+1)$ أي $v_{n+1}=\\dfrac{e^{2-n}-e^4}{1-e}$. لدينا $v_{n+1}=v_n+u_n$ وحسب فرض التراجع $v_{n+1}=\\dfrac{e^{3-n}-e^4}{1-e}+e^{2-n}$. بتوحيد المقامات والتبسيط نجد $v_{n+1}=\\dfrac{e^{2-n}-e^4}{1-e}$ ومنه $P(n+1)$ محققة، فتكون $P(n)$ محققة حسب مبدأ الاستدلال بالتراجع من أجل كلّ عدد طبيعي $n$.",
+          "final": "v_n=\\dfrac{e^{3-n}-e^4}{1-e}"
+        },
+        {
+          "label": "3.ب",
+          "answer": "لدينا $\\lim_{n\\to+\\infty} e^{3-n}=0$ ومنه $\\lim_{n\\to+\\infty} v_n=\\dfrac{e^4}{e-1}$ وعليه فإنّ المتتالية $(v_n)$ متقاربة.",
+          "final": "\\lim_{n\\to+\\infty} v_n=\\dfrac{e^4}{e-1}"
+        },
+        {
+          "label": "4.أ",
+          "answer": "لدينا $\\dfrac{1}{e}v_n=\\dfrac{1}{e}\\cdot\\dfrac{e^{3-n}-e^4}{1-e}=\\dfrac{1}{1-e}\\left(e^{2-n}-e^3\\right)$ ومنه $\\dfrac{1}{e}v_n=\\dfrac{1}{1-e}\\left(u_n-e^3\\right)$.",
+          "final": "\\dfrac{1}{e}v_n=\\dfrac{1}{1-e}\\left(u_n-e^3\\right)"
+        },
+        {
+          "label": "4.ب",
+          "answer": "$S'_n=\\dfrac{1}{1-e}\\left(u_0-e^3\\right)+\\dfrac{1}{1-e}\\left(u_1-e^3\\right)+\\cdots+\\dfrac{1}{1-e}\\left(u_n-e^3\\right)$ أي $S'_n=\\dfrac{1}{1-e}\\left(u_0+u_1+\\cdots+u_n-e^3(n+1)\\right)$ ومنه $S'_n=\\dfrac{1}{1-e}\\left(S_n-(n+1)e^3\\right)$.",
+          "final": "S'_n=\\dfrac{1}{1-e}\\left(S_n-(n+1)e^3\\right)"
+        }
+      ],
+      "figures": []
+    },
+    {
+      "exercise_id": "2022_s2_ex4",
+      "subject_choice": 2,
+      "exercise_number": 4,
+      "answers": [
+        {
+          "label": "1",
+          "answer": "$\\lim_{x\\to+\\infty} f(x)=\\lim_{x\\to+\\infty}\\left[\\dfrac{1}{2}e^{-2x}-\\dfrac{9}{2}e^{-x}-2x+4\\right]=-\\infty$. و $\\lim_{x\\to-\\infty} f(x)=\\lim_{x\\to-\\infty}\\left[\\left(\\dfrac{1}{2}e^{-x}-\\dfrac{9}{2}\\right)e^{-x}-2x+4\\right]=+\\infty$.",
+          "final": "\\lim_{x\\to+\\infty}f(x)=-\\infty,\\ \\lim_{x\\to-\\infty}f(x)=+\\infty"
+        },
+        {
+          "label": "2.أ",
+          "answer": "الدالة $f$ قابلة للاشتقاق على $\\mathbb{R}$ و $f'(x)=-\\dfrac{1}{2}e^{-2x}(e^x-2)(4e^x-1)$.",
+          "final": "f'(x)=-\\dfrac{1}{2}e^{-2x}(e^x-2)(4e^x-1)"
+        },
+        {
+          "label": "2.ب",
+          "answer": "إشارة $f'(x)$: سالبة على $]-\\infty;-\\ln 4[$، موجبة على $]-\\ln 4;\\ln 2[$، سالبة على $]\\ln 2;+\\infty[$. ومنه $f$ متزايدة تماما على المجال $[-\\ln 4;\\ln 2]$ ومتناقصة تماما على المجالين $]-\\infty;-\\ln 4]$ و $[\\ln 2;+\\infty[$. جدول التغيّرات:",
+          "table": {
+            "x": [
+              "-\\infty",
+              "-\\ln 4",
+              "\\ln 2",
+              "+\\infty"
+            ],
+            "f'(x)": [
+              "-",
+              "0",
+              "+",
+              "0",
+              "-"
+            ],
+            "f(x)": [
+              "+\\infty",
+              "f(-\\ln 4)",
+              "f(\\ln 2)",
+              "-\\infty"
+            ]
+          }
+        },
+        {
+          "label": "3.أ",
+          "answer": "لدينا $\\lim_{x\\to+\\infty}\\left(f(x)-(-2x+4)\\right)=\\lim_{x\\to+\\infty}\\left(\\dfrac{1}{2}e^{-2x}-\\dfrac{9}{2}e^{-x}\\right)=0$ ومنه المستقيم $(\\Delta)$ ذو المعادلة $y=-2x+4$ مقارب مائل لـ $(C_f)$ بجوار $+\\infty$.",
+          "final": "(\\Delta): y=-2x+4"
+        },
+        {
+          "label": "3.ب",
+          "answer": "نلخص الوضع النسبي في الجدول: $(\\Delta)$ يقع تحت $(C_f)$ على $]-\\infty;-\\ln 9[$، و $(\\Delta)$ يقطع $(C_f)$ في النقطة $w(-\\ln 9;\\,2\\ln 9+4)$، و $(\\Delta)$ يقع فوق $(C_f)$ على $]-\\ln 9;+\\infty[$.",
+          "table": {
+            "x": [
+              "-\\infty",
+              "-\\ln 9",
+              "+\\infty"
+            ],
+            "f(x)-(-2x+4)": [
+              "+",
+              "0",
+              "-"
+            ]
+          }
+        },
+        {
+          "label": "4",
+          "answer": "$(T): y=f'(0)(x-0)+f(0)$ ومنه $(T): y=\\dfrac{3}{2}x$.",
+          "final": "(T): y=\\dfrac{3}{2}x"
+        },
+        {
+          "label": "5",
+          "answer": "الإنشاء: منحنى (C_f) كما هو مبيّن في الشكل.",
+          "note": "الشكل: منحنى (C_f)."
+        },
+        {
+          "label": "6.أ",
+          "answer": "لدينا $h(x)=-\\left(\\dfrac{1}{2}e^{-2x}-\\dfrac{9}{2}e^{-x}-2x+4\\right)+2$ ومنه $h(x)=-f(x)+2$. وعليه $a=-1$ و $b=2$.",
+          "final": "h(x)=-f(x)+2,\\ a=-1,\\ b=2"
+        },
+        {
+          "label": "6.ب",
+          "answer": "$(C_h)$ هو صورة $(C_{-f})$ بالانسحاب الذي شعاعه $\\vec{v}\\begin{pmatrix}0\\\\2\\end{pmatrix}$ حيث $(C_{-f})$ هو نظير $(C_f)$ بالنسبة إلى حامل محور الفواصل."
+        }
+      ],
+      "figures": [
+        "2022_corr_s2_ex4_cf"
+      ]
+    }
+  ]
+}
